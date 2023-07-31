@@ -1,0 +1,46 @@
+:root {
+
+    --primary:    #C1282A;
+    --secondary:  #000000;
+    --accent:     #003E72;
+    --dark:         #3f3f3f;
+
+
+    --rounded-0:         0rem !important;
+    --rounded-xs:        0.15rem !important;
+    --rounded-sm:        0.2rem !important;
+    --rounded-md:        0.27rem !important;
+    --rounded-lg:        0.37rem !important;
+    --rounded-xl:        0.5rem !important;
+    --rounded-2xl:       0.7rem !important;
+    --rounded-3xl:       1.0rem !important;
+    --rounded-pill:      50rem !important;
+    --rounded-circle:    50% !important;
+
+    /* FONT-FAMILY */
+    --font-primary: "Montserrat", sans-serif;
+    --font-secondary: roboto, sans-serif;
+
+    /*FONT-SIZES*/
+    --fs-2xs: 0.75em;
+    --fs-xs: 0.813em;
+    --fs-sm: 0.906em;
+    --fs-md: 1em;
+    --fs-lg: 1.125em;
+    --fs-xl: 1.25em;
+    --fs-2xl: 1.5em;
+    --fs-3xl: 1.75em;
+    --fs-4xl: 2em;
+
+    --space-1:  0.25rem;
+    --space-2:  0.5rem;
+    --space-3:  1rem;
+    --space-4:  1.5rem;
+    --space-5:  2rem;
+    --space-6:  2.5rem;
+    --space-7:  3rem;
+    --space-8:  3.5rem;
+    --space-8:  4rem;
+    --space-9:  4.5rem;
+    --space-10: 5rem;
+}

@@ -1,0 +1,181 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  vertical-align: baseline;
+}
+
+/* Configuramos anclas suaves */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  font-size: 100%;
+  font-family: sans-serif;
+  // color: var(--gray-900);
+  line-height: 1.4;
+  // /* opcional */hyphens: auto;
+  /* opcional */
+  font-smooth: always;
+}
+
+a {
+  display: block;
+  color: inherit;
+  font-size: inherit;
+  text-decoration: none;
+  margin: 0;
+}
+
+body {
+  font-family: var(--font-first);
+  background: #ffffff;
+  line-height: 1.3;
+  overflow-x: hidden;
+}
+// a {
+//     font-size: var(--fs-md);
+// }
+a:hover {
+  text-decoration: none;
+}
+
+p {
+  font-size: var(--fs-md);
+  line-height: 1.5em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.4em;
+}
+
+h1,
+.h1 {
+  font-size: var(--fs-4xl);
+}
+h2,
+.h2 {
+  font-size: var(--fs-3xl);
+}
+h3,
+.h3 {
+  font-size: var(--fs-2xl);
+}
+h4,
+.h4 {
+  font-size: var(--fs-xl);
+}
+h5,
+.h5 {
+  font-size: var(--fs-lg);
+}
+h6,
+.h6 {
+  font-size: var(--fs-md);
+}
+
+// /* ... excepto los que se encuentran en párrafos */
+p a {
+  display: inline;
+  margin: 0;
+}
+
+// /* Evitamos problemas con las imagenes */
+img,
+picture,
+video,
+iframe,
+figure {
+  max-width: 100%;
+  width: 100%;
+  display: block;
+  /* opcional */
+  // -o-object-fit: cover;
+  // object-fit: cover;
+  /* opcional */
+  -o-object-position: center center;
+  object-position: center center;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+a,
+strong,
+blockquote,
+i,
+b,
+u,
+em {
+  color: inherit;
+  font-size: 1em;
+  font-weight: inherit;
+  font-style: inherit;
+  text-decoration: none;
+  margin: 0;
+}
+
+ul {
+  margin-bottom: 0;
+  padding: 0;
+}
+// /* Quitamos los puntos de los <li> */
+li {
+  list-style-type: none;
+}
+
+// /* Evitamos problemas con los pseudoelementos de quotes */
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+// /* Nivelamos problemas de tipografías y colocación de formularios */
+form,
+input,
+textarea,
+select,
+button,
+label {
+  font-family: inherit;
+  font-size: inherit;
+  hyphens: auto;
+  background-color: transparent;
+  color: inherit;
+  display: block;
+  // /* opcional */appearance: none;
+}
+
+// /* Reseteamos las tablas */
+table,
+tr,
+td {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Evitamos problemas con los SVG */
+svg {
+  width: 100%;
+  display: block;
+  fill: currentColor;
+}

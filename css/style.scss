@@ -1,0 +1,141 @@
+@use "reset";
+@use "variables";
+
+// .container-fluid {
+//   max-width: 1120px;
+// }
+.container-xl {
+  max-width: 1120px;
+}
+
+.az-topbar {
+  background-color: var(--accent);
+  padding: var(--space-2) 0;
+  font-size: var(--fs-xs);
+  color: #ffffff;
+  font-weight: 600;
+//   letter-spacing: 0.02rem;
+//   text-decoration: underline;
+
+  &-wrap {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  &-wrap > :nth-child(1),
+  &-wrap > :nth-child(3) {
+    margin-right: var(--space-3);
+  }
+  &-wrap > :nth-child(2) {
+    margin-right: auto;
+  }
+}
+
+.az-header {
+    background-color: #fff;
+    padding: var(--space-2);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    &-logo {
+        width: 7em;
+    }
+
+    .nav-link {
+        padding: 0;
+        color: #212121 !important;
+    }
+}
+
+.az-categories {
+    text-align: center;
+
+}
+.az-blog {
+    .card {
+        .card-title {
+            font-weight: 600;
+        }
+        .btn {
+            margin-top: var(--space-3);
+        }
+    }
+}
+.az-steps {
+    .card-header {
+        background: var(--accent);
+    }
+    button {
+        color: #fff;
+        font-weight: 600;
+        text-decoration: none;
+    }
+}
+.az-footer {
+    margin-top: var(--space-7);
+    // background: #e8e8e8;
+    background-color: #141414;
+    // color: var(--accent);
+    color: #ededed;
+    font-weight: 600;
+    text-align: center;
+    padding: var(--space-7);
+    font-size: var(--fs-xl);
+
+    img {
+        margin: 0 auto;
+        margin-bottom: var(--space-4);
+        // margin-top: var(--space-2);
+    }
+    &-mail {
+        span {
+            text-decoration: underline;
+        }
+    }
+}
+
+.title {
+    font-size: var(--fs-4xl);
+    font-weight: 800;
+    margin-bottom: var(--space-4);
+    text-align: center;
+    color: var(--dark);
+}
+.card-1 {
+    border: none;
+    .row {
+        align-items: center;
+    }
+    .card-title {
+        font-size: var(--fs-4xl);
+        font-weight: 700;
+    }
+}
+.card-item {
+    border: none;
+    color: var(--dark);
+    img {
+        max-width: 7em;
+        margin: 0 auto;
+    }
+    .card-title {
+        font-weight: 600;
+    }
+    .btn {
+        margin-top: var(--space-3);
+    }
+}
+.card {
+    border: none;
+}
+
+.btn {
+    border-radius: var(--rounded-sm);
+}
+
+.btn-primary,
+.btn-primary:hover {
+    background-color: var(--primary);
+    border: var(--primary);
+}
